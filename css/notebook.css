@@ -1,0 +1,102 @@
+body {
+  margin: 50px 0 !important;
+  background-color: #1f1300 !important;
+}
+ul {
+  margin-bottom: 1.9rem !important;
+}
+p {
+  text-align: justify;
+}
+p,
+li {
+  font-family: monospace;
+  font-size: 16px;
+  color: #282625;
+  margin: 0 auto !important;
+  width: auto;
+  line-height: 30px;
+}
+.block-a {
+  padding-left: 35px;
+  padding-top: 30px;
+}
+.info-links {
+  display: inherit; /*flex*/
+  padding-top: 20px; /*15*/
+}
+.info-links > a {
+  margin: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.writen-link {
+  color: #000;
+  font-size: 1.5rem;
+}
+.paper {
+  padding: 37px 55px 27px;
+  position: relative;
+  border: 1px solid #b5b5b5;
+  background: white;
+  background: -webkit-linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
+  background: -moz-linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
+  background: linear-gradient(top, #dfe8ec 0%, white 8%) 0 57px;
+  -webkit-background-size: 100% 30px;
+  -moz-background-size: 100% 30px;
+  -ms-background-size: 100% 30px;
+  background-size: 100% 30px;
+}
+.paper::before {
+  content: "";
+  z-index: -1;
+  margin: 0 1px;
+  width: 706px;
+  /*height: 10px;*/
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background: white;
+  /*border: 1px solid #b5b5b5;*/
+}
+.paper::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  top: 0;
+  left: 39px;
+  bottom: 0;
+  border-left: 1px solid #f8d3d3;
+}
+.bookmarkRibbon {
+  position: absolute;
+  width: 0;
+  height: 100px;
+  bottom: -100px;
+  border-right: 50px solid rgb(184, 12, 9);
+  border-left: 50px solid rgb(184, 12, 9);
+  border-bottom: 30px solid transparent;
+}
+.bookmarkRibbon2 {
+  position: absolute;
+  width: 0;
+  height: 100px;
+  bottom: -100px;
+  left: 200px;
+  border-right: 50px solid rgb(184, 12, 9);
+  border-left: 50px solid rgb(184, 12, 9);
+  border-bottom: 30px solid transparent;
+}
+
+.nodec {
+  text-decoration: none;
+  color: #000;
+}
+
+::selection {
+  color: red;
+}
+
+.right {
+  float: right;
+}

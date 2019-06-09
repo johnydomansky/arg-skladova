@@ -1,0 +1,34 @@
+html,
+body {
+  margin: auto;
+  background-color: #8a6329;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr [m] 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left-sidebar main-area main-area right-sidebar";
+  height: 100vh;
+}
+
+.main-area {
+  grid-area: main-area;
+  background-color: #8a6329;
+  justify-self: center;
+}
+
+.left-sidebar {
+  grid-area: left-sidebar;
+  background-color: #ccc;
+}
+
+.right-sidebar {
+  grid-area: right-sidebar;
+  background-color: #ccc;
+}
+
+img {
+  height: 80vh;
+  padding-top: 30px;
+}

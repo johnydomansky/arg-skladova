@@ -1,0 +1,19 @@
+<svg width="208.00000000000003" height="267" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="269" width="210" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect rx="10" id="svg_1" height="267" width="207" y="0.000002" x="0.551178" stroke-width="0" stroke="#fff" fill="#dd3333"/>
+  <rect stroke="#fff" id="svg_2" height="266.930036" width="16" y="0.061206" x="0.000006" stroke-width="0" fill="#a81515"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="65.842707" x="84.23939" stroke-width="0" stroke="#fff" fill="#bf0f0f">ARG</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="120.147353" x="60.617076" stroke-width="0" stroke="#fff" fill="#bf0f0f">Skladová</text>
+  <rect stroke="#fff" id="svg_7" height="1.98675" width="19.205301" y="132.730134" x="100.357611" stroke-width="0" fill="#bf0f0f"/>
+  <text font-style="normal" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="15" id="svg_8" y="159.220208" x="47.019603" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#fff" fill="#bf0f0f">cesta za poznaním</text>
+ </g>
+</svg>

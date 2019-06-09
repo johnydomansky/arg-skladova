@@ -1,0 +1,44 @@
+/*Tu sa nič nemení*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  max-width: 10%;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Miesto na úpravu pre zadanie*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "prvy-riadok prvy-riadok prvy-riadok" "druhy-riadok druhy-riadok druhy-riadok" "treti-riadok treti-riadok treti-riadok";
+  height: 100vh;
+}
+
+.prvy-riadok {
+  grid-area: prvy-riadok;
+  background-color: red;
+}
+
+.druhy-riadok {
+  grid-area: druhy-riadok;
+  background-color: black;
+}
+
+.treti-riadok {
+  grid-area: treti-riadok;
+  background-color: blue;
+}

@@ -1,1 +1,3 @@
-# arg-skladova
+# ARG Skladova
+
+Aplikačná časť bakalárskej práce.
